@@ -1,0 +1,529 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+#header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1.3rem;
+padding: 1.5rem 10%;
+/* blur  background filter set a value */
+background-color: rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(50px);
+position: fixed;
+left: 0;
+top: 0;
+width: 100%;
+z-index: 1;
+}
+.logo{
+    font-size: 2.5rem;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: 600;
+    margin-right:20px;
+    background-color: transparent;
+}
+#check{
+    display: none;
+}
+.icons{
+    font-size: 2.5rem;
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+    position:absolute;
+    right: 5%;
+    display: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.navbar a{
+    font-size: 1.15rem;
+    color: hsl(0, 100%, 50%);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    margin: 30px;
+    background-color: transparent;
+}
+.icon1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+    font-size: 10px;
+    margin-left: 5px;
+    }
+.listitems1{
+    background-color: transparent;
+}
+#h2{
+    font-size: 35px;
+    color: white;
+    font-weight: 600px;
+    margin-left: 30px;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 500px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main{
+    background-image: url('https://kfcshop.co.uk/cdn/shop/files/9H7A3049.jpg?v=1717851013&width=1780');
+    height: 100vh;
+    width: 100%;
+    background-size: cover; 
+    /* background-attachment: fixed;  */
+    margin-top: 100px;
+    background-repeat: no-repeat ;
+    display: block;
+}
+#b2{
+    margin: 20px;
+    border: 3px solid;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 130px;
+    border-radius: 4px;
+    margin-left: 700px;
+    color: white;
+    font-size: larger;
+}
+#top{
+    color: white;
+    padding-top: 30px;
+    font-size: larger;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.contents{
+    padding-top: 100px;
+}
+nav{
+  padding-right: 100px ;
+  background-color: transparent;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.item{
+    width: 300px;
+    height: 500px;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: rgb(39, 37, 37);
+}
+.group1{
+    width: 100%;
+    height:350px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+h4{
+    padding-top: 17px;
+    padding-left:10px;
+    font-size: medium;
+    display: block;
+    text-align: left;
+}
+h4:hover{
+    text-decoration: underline;
+}
+h3{
+    font-size: 17px;
+     margin-left:20px
+}
+#b1{
+    margin-top: 20px;
+    width:120px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    margin-left: 680px;
+    border: 0cap;
+    border-radius: 3px;
+}
+#b2:hover{
+    width:135px;
+    height: 65px;
+}
+#b1:hover{
+   width: 125px;
+   height: 45px;
+}
+#b3:hover{
+    width: 125px;
+    height: 45px;
+ }
+.row{
+    width: 100%;
+    height: 500px;
+    padding-left: 10px;
+    /* display: flex;
+    flex-wrap: wrap;
+    padding: 0px 4px; */
+    margin-top: 0px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    /* background-color: #a7b1bb; */
+    padding-right: 10px;
+    /* padding-bottom: 100px; */
+}
+.col1{
+    align-items: center;
+    height: 100px;
+    margin-top: -1000;
+    width: 800px;
+    margin-left: 80px;
+}
+.img1{
+    height: 800px;
+    text-align: center;
+    margin-top: -297px; 
+    width:800px;
+ }
+ .img1s1{
+    width: 400px;
+    height: 445px;
+}
+ .imgz1{
+    width: 400px;
+    height: 246px;
+    margin-top: 106px;
+ }
+ #hi{ 
+    width: 400px; 
+    height: 545px;
+    margin:5px 0px 0px 0px;
+    }
+#about{
+        margin: 35% 8% 0px 8%;
+    }
+.aboutBody{
+        margin-top: 0px;
+        display: grid;
+        /* repeat() can also be used in grid temp if 2 values are same */
+        /*     grid-template-columns: repeat(2,1fr); */
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 20px;
+    }
+.img1k{
+        width: 600px;
+        height: 700px;
+    }
+.aboutContent{
+        font-size: 20px;
+        text-align: left;
+        color: white;
+        line-height: 30px;
+        margin-left: 80px;
+    }
+#b3{
+        margin-top: 20px;
+        width:120px;
+        height: 40px;
+        background-color: rgb(255, 0, 0);
+        color: white;
+        margin-left: 200px;
+        border: 0cap;
+        border-radius: 3px;
+    }
+
+footer {
+        display: block;
+        unicode-bidi: isolate;
+    }
+    .iconCollection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconz{
+        width:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 0px;
+    }
+.hur:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:430px) {
+    #header{
+        padding: 1.3rem 5%;
+    }
+
+}
+/* 480px-sm, 760-md, 920px-lg, 1200px-x1  */
+/* works on tab @media(max-width:760px) and (min-width:481) */
+@media(max-width:760px){
+    .icons{
+        display: flex;
+    }
+    #closeIcon{
+        display: none;
+    }
+    /* pseudo class checked - should have to specify the relationship between check and menuIcon */
+    #check:checked~.icons #menuIcon{
+        display: none;
+    }
+    #check:checked~.icons #closeIcon{
+        display: block;
+    }#check:checked~.navbar{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top:100%;
+        left: 0px;
+        background-color: gainsboro;
+        width: 100%;
+        display: none;
+    }
+    .navbar a{
+        display: block;
+        text-align: center;
+        font-size: 1rem;
+        margin: 1rem 0px;
+        font-weight: 600;
+    }
+    h1{
+        color : rgb(253, 253, 255);
+    }
+}
+@media(max-width:760px){
+
+    .container{
+   
+       flex:1;
+    }
+.item{ 
+    width: 180px;
+    height: 500px;
+    border: 1px solid;
+    margin-left: 17px;
+    border-radius: 10px;
+    border-color: rgb(39, 37, 37);
+    padding-bottom: 10px;
+}
+.group1{
+    width: 180px;
+    height:350px;
+} 
+}
+
+@media(max-width:760px){
+
+.footer {
+    margin-top: 24px;
+  }
+.hur:hover{
+    text-decoration: underline;
+}
+}
+
+@media(max-width:760px){
+.main{
+background-position: center center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url('https://kfcshop.co.uk/cdn/shop/files/9H7A3049.jpg?v=1717851013&width=1780'); 
+width: 250%;
+height: 900px;
+aspect-ratio: auto 576 / 384;
+/* padding-left: 20px; */
+/* padding-right:20px; */ 
+} 
+#h2{
+    font-size: 25px;
+    color: white;
+    font-weight: 600px;
+    margin-left: 30px;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 700px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+#b2{
+    margin: 20px;
+    border: 3px solid;
+    background-color: transparent;
+    border-color: white;
+    height: 60px;
+    width: 130px;
+    border-radius: 4px;
+    margin-left: 500px;
+    color: white;
+    font-size: larger;
+}
+h2{
+    font-size: 20px;
+}
+}
+@media(max-width:760px){
+#top{
+    font-size: 30px;
+}
+#b1{
+    margin-top: 10px;
+    width:120px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    margin-left: 400px;
+    border: 0cap;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+}
+@media(max-width:760px){
+.row{
+    grid-template-columns: 90%;
+}
+.img1{
+    /* width: 100%; */
+    height: 700px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+    margin: 0px;
+ }
+ .col1{
+    height: 700px;
+    margin-top: -1000;
+    width: 700px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 0px;
+    margin-left: 100px;
+}
+ .col2{
+    margin-left: 10px;
+    height: 400px;
+    width: 800px;
+ }
+ .imgz1{
+    width: 800px;
+    height: 400px;
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-left: 95px;
+    /* margin-left: 50px; */
+    padding-bottom: 30px;
+ }
+#img1s1{
+    width: 800px;
+    height: 400px;
+}
+#hi{
+    width: 800px;
+    height: 600px;
+    margin-top: 10px; 
+    margin-left: 95px;
+}
+#about{
+    margin-top: 1300px;
+}
+}
+
+@media (max-width: 768px) {
+    .footer {
+      text-align: center;
+      margin-left: 00px;
+      width: 100%;
+    }
+  
+    .footer-blocks {
+      flex-direction: column;
+      margin-left: 300px;
+    }
+  
+    .footer-block {
+      min-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .footer-block h2 {
+      margin-bottom: 10px;
+    }
+  
+    .footer-bottom {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      padding: 20px 10px ;
+      text-align: center;
+      width: 1000px;
+    }
+  
+    .footer-block h2 {
+      font-size: 16px;
+    }
+  
+    .footer-block p {
+      font-size: 14px;
+    }
+  
+    .footer-bottom p {
+      font-size: 12px;
+    }
+    .hey{
+   
+        text-align: center;
+        width: 100%;
+    }
+    .footer-blocks{
+        margin-left: 0px;
+    }
+    .listitems1{
+        margin-left: 30px0;
+    }
+    #b3{
+        margin-top: 20px;
+        width:120px;
+        height: 40px;
+        background-color: rgb(255, 0, 0);
+        color: white;
+        margin-left: 200px;
+        border: 0cap;
+        border-radius: 3px;
+    }
+    #b2:hover{
+        border-color: rgb(0, 0, 0);
+        color: rgb(0, 0, 0);
+    }
+    #b1:hover{
+       width: 125px;
+       height: 45px;
+    }
+    #b3:hover{
+        width: 125px;
+        height: 45px;
+     }
+     .icon1{
+        margin-right: 60px;
+        background-color: transparent;
+     }
+  }
+  
+  
